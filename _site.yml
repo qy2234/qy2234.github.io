@@ -1,10 +1,13 @@
 name: "Yay internet!"
 output_dir: "."
 navbar:
-  title: "Home"
+  title: "Homepage"
   right:
     - text: "Academic and Professional Experience"
       href: about.html
+      menu:
+      - text: "Flexdashboard"
+        href: flexdashboard.html
     - icon: fa-envelope fa-lg
       href: mailto:qiheng.y@columbia.edu
     - icon: fa-github fa-lg

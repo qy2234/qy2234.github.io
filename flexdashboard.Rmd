@@ -1,0 +1,76 @@
+---
+title: "Instacart Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(viridis)
+library(p8105.datasets)
+library(plotly)
+```
+
+```{r}
+data("instacart")
+set.seed(1)
+most_ordered_aisle_ten_k =  
+  instacart %>%
+  group_by(aisle) %>%
+  summarize(count = n()) %>%
+  arrange(desc(count)) %>%
+  filter(count > 10000)
+```
+
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+## a interactive scatter plot that shows when was 100% Baby Kale ordered in a 24-hour cycle
+most_ordered_aisle_ten_k %>% 
+  plot_ly(x = ~aisle, y = ~count, type = "scatter", mode = "markers",
+          alpha = 0.5)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+## Compare the time when 100% baby kale and acorn squash are ordered
+kale_squash = 
+  instacart %>% 
+  janitor::clean_names() %>% 
+  select(order_hour_of_day, product_name, aisle, department) %>% 
+  filter(aisle == "fresh vegetables", product_name == c("100% Baby Kale", "Acorn Squash"))
+
+kale_squash %>% 
+  plot_ly(y = ~order_hour_of_day, color = ~product_name, type = "box",
+          colors = "Set2")
+```
+
+### Chart C
+
+```{r}
+## Compare which vegetable is most popular among 4 
+fresh_vege_data = 
+  instacart %>% 
+  janitor::clean_names() %>% 
+  select(order_hour_of_day, product_name, aisle, department) %>% 
+  filter(aisle == "fresh vegetables", product_name == c("100% Baby Kale", 
+                                                        "Acorn Squash", 
+                                                        "Anaheim Pepper",
+                                                        "Artichokes"))
+
+fresh_vege_data %>% 
+  count(product_name) %>% 
+  mutate(product_name = fct_reorder(product_name, n)) %>% 
+  plot_ly(x = ~product_name, y = ~n, type = "bar")
+```
