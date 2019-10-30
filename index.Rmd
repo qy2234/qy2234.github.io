@@ -1,0 +1,15 @@
+---
+title: "Michael Yan's website"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Welcome! On this page, you can find everything about me!
+
+Here's me:
+![](images/image.jpg)
+
+You can find my academic and professional experience [here](about.html)

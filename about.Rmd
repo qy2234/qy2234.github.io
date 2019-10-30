@@ -1,0 +1,56 @@
+---
+title: "Academic and Professional Experience"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+# Name
+Michael (Qiheng) Yan
+New York, NY | (949)-6561516 | qiheng.y@columbia.edu
+www.linkedin.com/in/michael-yan-0b2ab4175
+
+
+# Education
+Columbia University Mailman School of Public Health                            New York, NY
+Master of Science, Biostatistics, Statistical Genetics Track                          Expected 05/2021
+
+•	Relevant Courses: Probability, Data Science, Biostatistical method, Human Population Genetics
+
+University of California, Irvine                                                    Irvine, CA
+Bachelor of Science, Biological Sciences                                      Graduated 06/2019
+
+# Work Experience
+UC Irvine medical center
+Biomedical 199 Research Student & Health Affairs                             07/2018-06/2019
+
+•	Led a brain extraction and brain tissue segmentation project at the Center for Artificial Intelligence in Diagnostic Medicine at UC Irvine Health.
+
+•	Created a neuroimaging pipeline that outcompete the state-of-the-art algorithm. 
+
+School of Medicine in Tsinghua University.                                    06/2017-08/2017
+Research Assistant 
+
+•	Supported (doing elution, running gel, preparing solutions, purifying protein, dissecting midgut, etc.) Dr. Cheng’s (Gong Cheng) research team which focuses on Arthropod-borne virus (Zika, Dengue) 
+
+•	Discovered new mechanism to stop the spread of Dengue virus. 
+
+New Oriental Education & Technology Group Inc.
+Teaching assistant                                                         07/2016-08/2016
+
+•	Gave discussion problems, provided feedbacks on homework, and graded quizzes for high school students to better prepare them for the SAT test.
+
+•	Communicated with students’ parents and resolved conflict.
+
+# Publication
+Yanping Zhou, Yu Bi, Qiheng Yan, Guixia Jia & Yunpeng Du (2018) Characterization of the chloroplast genome of a rare species in China,Lilium martagon var. pilosiusculum, Mitochondrial DNA part B, 3:1, 431-433, DOI: 10.1080/23802359.2018.1450667
+
+# Skills and Certifications
+Knowledge in MS Excel; MS Word; and programming language including Python,
+and statistical application including R. 
+
+HIPAA and GCP for Clinical Trials with Investigational Drugs and Medical Devices (U.S. FDA
+focus) training/certification.
+
+Bilingual in English/Chinese.
