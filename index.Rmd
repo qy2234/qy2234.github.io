@@ -10,6 +10,9 @@ output:
 # Welcome! On this page, you can find everything about me!
 
 Hey! This is Michael from Orange County and I just graduated from UC Irvine! ZOT ZOT ZOT!
+I was a Bio Sci major in college and I love working with rodents in labs!
+I love playing soccer and working out whenever I'm free. They are wonderful stress reducers!
+
 Here's me:
 ![](images/image.jpg)
 
