@@ -4,7 +4,7 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: journal
 ---
 
 # Welcome! On this page, you can find everything about me!
