@@ -9,6 +9,7 @@ output:
 
 # Welcome! On this page, you can find everything about me!
 
+Hey! This is Michael from Orange County and I just graduated from UC Irvine! ZOT ZOT ZOT!
 Here's me:
 ![](images/image.jpg)
 
